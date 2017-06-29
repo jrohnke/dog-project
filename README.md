@@ -5,6 +5,14 @@
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
 
+## Introduction
+
+This project is part of the Udacity Artificial Intelligence Nanodegree program. The goal is to create a CNN to recognize the breed of a dog in an image - or the breed that closely resembles the person if the image is of a human.
+
+The Jupyter notebook contains all the tests and code to train the CNN and some test images to see how well it performs.
+
+The flask folder contains a Flask web app that uses the best model created in the Jupyter notebook. Running app.py will start the Flask server and the web app can be accessed within the local network on port 5000 (or on the same machine via localhost:5000). It takes a local file or a URL as input.
+
 ## Project Overview
 
 Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
