@@ -1,0 +1,17 @@
+<!doctype html>
+<h1>Dog breed detector</h1>
+<form action="" method=post enctype=multipart/form-data>
+  <p><input type=file name=file>
+     <input type=submit value=Check name=image>
+</form>
+<form action="" method=post>
+  or enter URL:<br>
+  <input title="Enter URL" id="url" name="url" type="text" />
+  <input type="submit" value="SUBMIT" />
+</form>
+{% if filename %}
+  <br><br><img src="{{filename}}" height="300">
+  <br><h1>I can't see a dog or human on this image, try another one!</h1>
+{% else %}
+  <h1>no image for whatever reason</h1>
+{% endif %}
