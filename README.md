@@ -11,7 +11,8 @@ This project is part of the Udacity Artificial Intelligence Nanodegree program. 
 
 The Jupyter notebook contains all the tests and code to train the CNN and some test images to see how well it performs.
 
-The flask folder contains a Flask web app that uses the best model created in the Jupyter notebook. Running app.py will start the Flask server and the web app can be accessed within the local network on port 5000 (or on the same machine via localhost:5000). It takes a local file or a URL as input.
+The flask folder contains a Flask web app that uses the best model created in the Jupyter notebook. Running app.py will start the Flask server and the web app can be accessed within the local network on port 5000 (or on the same machine via localhost:5000). It takes a local file or a URL as input.<br>
+The app is currently running on AWS and can be found here: http://dogapp.eu-west-2.elasticbeanstalk.com:5000/
 
 ## Project Overview
 
